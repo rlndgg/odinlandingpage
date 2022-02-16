@@ -146,3 +146,48 @@ li > p {
     font-weight: bold;
     font-size: 24px;
 }
+
+.bluebox{
+    flex: auto;
+    display: flex;
+    margin: 70px 200px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+
+.leftblue{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-items: center;
+    padding-left: 70px;
+}
+.bluetop{
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF6;
+    font-size: 24px;
+    margin: 0;
+   
+}
+
+.bluebottom{
+    font-family: 'Roboto', sans-serif;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.lastbutton{
+    border: 2px solid;
+    border-color: #F9FAF6;
+}
+
+.last-container{
+    background-color: #1F2947;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    color: #F9FAF6;
+
+}
