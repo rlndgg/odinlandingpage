@@ -86,3 +86,33 @@ button {
         border-radius: 8px;
         padding: 5px 20px;
 }
+
+.sndbutton {
+    border: 5px solid;
+    border-color: #3882F6;
+    background-color: transparent;
+    
+    height: 75px;
+    width: 75px;
+}
+ul {
+    list-style-type: none;
+}
+
+#infotext{
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 36px;
+    flex: 1;
+}
+
+
+li > p {
+    flex-wrap: wrap;
+}
+
+#infocontainer {
+    display: flex;
+    flex-direction: column;
+}
